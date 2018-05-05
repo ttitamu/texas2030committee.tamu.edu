@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 100.01%;
+	font-family:Arial, Helvetica, sans-serif;
+	background: #005aab url(../images/back.gif) repeat-x top;
+	}
+
+#main {
+	width: 580px;
+	margin:10px auto;
+	padding:10px 0 1px 0;
+	background-color:#FFF;
+}
+#header { 
+	width:580px;
+	height: 108px;
+	margin:0px auto;
+	background-image: url(../images/2030header2.jpg);
+}
+
+#header a {
+	display: block;
+	width:240px;
+	height: 95px;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#navigation {
+	width: 580px;
+	background-color: #005aab;
+	/*border-right: 1px solid #fff;
+	border-left: 1px solid #fff;*/
+}
+
+#navigation ul {
+	margin: 0;
+	padding: 3px 10px;
+}
+
+#navigation ul li {
+	display: inline;
+	list-style-type: none;
+	font-size: .85em;
+	padding-right: 10px;
+}
+
+#navigation a, #navigation a:link, #navigation a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+#navigation a.special, #navigation a.special:link, #navigation a.special:visited {
+	color: #ffff00;
+	text-decoration: none;
+}
+
+#navigation a:hover, #navigation a:active {
+	color: #ccc;
+}
+
+#navigation a.special:hover, #navigation a.special:active {
+	color: #cccc99;
+}
+
+#content, #mobility, #pavements, #bridges, .contentbox {
+	width: 535px;
+	font-size: .8em;
+	background-color:#DEDEDE;
+	padding:10px;
+	margin:10px auto 10px auto;
+	border:1px solid #AAA;
+}
+
+#footer {
+	margin:0 auto;
+	width:500px;
+	text-align:center;
+	color:#FFF;
+	}
+#footer p {
+	font-size:0.7em;
+	margin: 5px;
+	padding:0;
+	}
+	
+#footer a, #footer a:link, #footer a:visited {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#footer a:hover, #footer a:active {
+	color: #ccc;
+}
+
+
+/* --------------------- add 8-12-16 mc -------------------------------- */
+/* --------------------------------------------------------------------- */
+body { 
+	font-size: 140%; 
+	line-height:1.5; 
+}
+#main { 
+	width:90%;
+	max-width: 1080px; 
+	padding:10px 0; 
+}
+#header, #navigation { 
+	width: 100%;  
+}
+#header {  
+	background: url(../images/2030header2.jpg) center 6px no-repeat;
+    border-bottom: 6px solid red; 
+}
+#content, 
+#mobility, 
+#pavements, 
+#bridges, 
+#footer,
+.contentbox { 
+	width: 95%; 
+	margin: 10px auto 0; 
+	padding: 10px 1.5%; 
+}
+
+#navigation ul { 
+	width: auto; 
+	margin:0 auto; 
+} 
+#navigation ul li {  
+	display: inline-block;
+	vertical-align: top;  
+	padding:0 15px;
+	text-align: center; 
+}
+#navigation ul li a { 
+	width: 100%; 
+	display:block; 
+	padding:10px; 
+}
+/* --------------------------------------------------------------------- */
+/* --------------------- end add 8-12-16 mc ---------------------------- */
+
+
+a, a:link, a:visited {
+	color: #005aab;
+	text-decoration: underline;
+}
+
+a:hover, a:active {
+	color: #005aab;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, form {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2.home { font-size: 1.50em; padding-bottom: 1em; }
+h2, h3.home { font-size:1.40em; padding-bottom: 1em; }
+h3 { font-size:1.25em; padding-bottom: 1em; }
+h4 { font-size:1.10em; padding-bottom: 1em; }
+h5 { font-size:1.00em; font-weight: bold; }
+h6 { font-size:1.00em; font-weight: bold; font-style: italic; }
+
+abbr, acronym {
+	border: none;
+}
+
+p, address {
+ padding-bottom: 1em;
+}
+
+ul, ol {
+ padding: 0 0 1em 30px;
+}
+
+table.data {
+    border-spacing: 0px;
+    border-collapse: collapse;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+}
+
+table.data caption {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1em;
+}
+
+table.data th {
+    font-weight: normal;
+    padding: 0.2em .5em;
+    border-bottom: 1px solid #000;	
+	background: #dedede;
+    color: #000;
+    text-align: left;
+	font-weight: bold;
+	vertical-align: top;	
+}
+
+table.data td {
+    text-align: left;
+	border: 1px solid #000;
+    padding: 0.5em 1em;
+    background: #dedede;
+	font-size: .85em;
+	vertical-align: top;
+}
+
+
+
+
+.small {
+	font-size: .85em;
+}
+
+.hide {
+	position:absolute;
+	left:-9999px;
+}
+
+.doctype {
+	font-size: 1em;
+	font-family: "Courier New", Courier, monospace;
+	color: #333;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.strong {
+	font-weight: bold;
+}

@@ -1,0 +1,3 @@
+<div id="footer">
+  <p><a href="http://www.txdot.gov/inside-txdot/contact-us/disclaimer.html">Disclaimer</a> | <a href="http://www.txdot.gov/inside-txdot/contact-us/privacy-security.html">Privacy &amp; Security Policy</a> | <a href="http://www.txdot.gov/inside-txdot/contact-us/accessibility.html">Accessibility</a> | <a href="http://texas2030committee.tamu.edu/plug-ins.htm">Plug-ins</a></p>
+</div>	
